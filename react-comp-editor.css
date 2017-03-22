@@ -1,0 +1,88 @@
+.left-bar {
+    height: 100%;
+    border-right: 1px solid grey;
+    overflow-x: hidden;
+}
+
+.companies-holder {
+    overflow-y: scroll;
+    max-height: 60vh;
+}
+
+.edit-container {
+    border: 1px solid white;
+}
+
+::-webkit-scrollbar {
+    scrollbar-face-color: #367CD2;
+}
+
+.col-header {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center
+}
+
+.main-content {
+    min-height: 80vh;
+}
+
+.list-group-item {
+    color:white;
+}
+
+.com-item {
+    display: block;
+    color: #0ce3ac;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #464545;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.com-item:hover {
+    background-color: #1a1919;
+    cursor: pointer;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+.sm-input {
+    height: 25px;
+    line-height: 25px;
+}
+
+.form-marg {
+    margin-bottom: 10px;
+}
+
+.check-a {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .left-bar {
+        height: 400px;
+    }
+
+    ul {
+        padding-left: 8px;
+    }
+    ul ul {
+        padding-left: 16px;
+    }
+    ul ul ul {
+        padding-left: 24px;
+    }
+    ul ul ul ul {
+        padding-left: 32px;
+    }
+    ul ul ul ul ul {
+        padding-left: 40px;
+    }
+}
